@@ -11,6 +11,7 @@ class Solution(object):
         a = Counter(arr)
         print(t, dict(t))
         print(a, dict(t))
+        return t==a
 
 
 
